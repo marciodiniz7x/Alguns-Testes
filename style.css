@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+section#inicio {
+  text-align: center;
+}
+
+section#inicio h2 {
+  margin-bottom: 0.5em;
+}
+
+section#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#produtos li {
+  width: 30%;
+  margin: 1em;
+  text-align: center;
+}
+
+section#produtos li img {
+  width: 100%;
+}
+
+section#produtos li button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+section#contato {
+  text-align: center;
+}
+
+section#contato form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#contato form label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+section#contato form input[type="text"],
+section#contato form input[type="email"],
+section#contato form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+section#contato form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
